@@ -2,6 +2,8 @@ from django.core.management.base import BaseCommand
 from octofit_tracker.models import User, Team, Activity, Workout, Leaderboard
 from django.utils import timezone
 
+# # Populate the octofit_db database with test data
+
 class Command(BaseCommand):
     help = 'Populate the database with initial data for Octofit Tracker'
 
