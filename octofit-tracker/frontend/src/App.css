@@ -1,0 +1,11 @@
+.nav-pills .nav-link.active {
+  background-color: var(--bs-primary);
+}
+
+body {
+  background-color: var(--bs-light);
+}
+
+.app-shell {
+  border: 0;
+}
